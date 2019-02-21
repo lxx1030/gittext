@@ -27,4 +27,11 @@ public class UserController {
         return mav;
 
     }
+
+    @RequestMapping("toadd")
+    public ModelAndView toadd(ModelAndView mav){
+        mav.setViewName("list");
+        return mav;
+
+    }
 }
