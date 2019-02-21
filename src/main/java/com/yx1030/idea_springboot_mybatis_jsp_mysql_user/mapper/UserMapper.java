@@ -8,6 +8,7 @@ import java.util.List;
 @Repository
 @Mapper
 public interface UserMapper {
+    
     int deleteByPrimaryKey(Integer id);
 
     int insert(User record);
@@ -21,6 +22,7 @@ public interface UserMapper {
     int updateByPrimaryKey(User record);
 
     int getCount(User user);
+
     List<User> userList(User user);
 
 

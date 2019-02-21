@@ -24,6 +24,7 @@ public class UserController {
         System.out.print(list);
         mav.addObject("page",user.getPageStr());
         mav.setViewName("list");
+        System.out.print("list执行完成");
         return mav;
 
     }
